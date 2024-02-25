@@ -104,7 +104,7 @@ def process_capture(file_url: str):
  
     label = classify(capture_img, pixel_values)
     print(label)
-    return jsonify({"hello": "WOAHHHH"})
+    return label
 
 
 
